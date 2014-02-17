@@ -16,3 +16,11 @@ a look at the excellent [RailsGirls guide for setting up Ruby](http://guides.rai
 
 We're going to be running cutting edge RSpec on the day, it's pretty easy, just
 clone this repo and run `rake setup`, or your `bundle install` command of choice.
+
+## Commands
+
+To run RSpec style tests: `rake spec`
+To run MiniTest style tests: `rake test`
+
+If you'd prefer to run the rspec exectuable directly, you'll need to add `./bin/`
+to your path, e.g: `export $PATH=./bin:$PATH`
